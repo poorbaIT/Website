@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+.basic_section {
+	background: #00556b;
+	box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+	padding: 30px 20px;
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 auto;
+}
+.membership_section {
+	margin: 50px auto;
+	margin-top: 130px;
+}
+.main_text {
+	background: #FFF;
+	padding: 20px 10px;
+	border-radius: 10px;
+	box-shadow: 15px 15px 35px 0 rgba(0,0,0,0.2);
+	margin-top: -70px;
+	margin-bottom: 30px;
+}
+.main_text h1 {
+	font-size: 30px;
+	color: #00556b;
+	font-weight: 700;
+	font-family: 'Philosopher',sans-serif !important;
+	margin: 0px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.main_text h2 {
+	font-size: 50px;
+	color: #00556b;
+	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+.main_text p {
+	font-size: 16px;
+	color: #00556b;
+	line-height: 24px;
+	letter-spacing: 0.40px;
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 400;
+	margin: 0;
+}
+.silver_text ul li {
+	list-style: none;
+	color: #FFF;
+	font-size: 16px;
+	line-height: 35px;
+	letter-spacing: 0.40px;
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 400;
+	text-align: left;
+}
+.gold_section {
+	background: #de1c36;
+}
+.silver_text ul li i {
+	margin-right: 10px;
+}
+.platinum_section {
+	background: #004a86;
+}
+.vip_section {
+	background: #0070db;
+}
+.gold_section h1, .gold_section h2, .gold_section p {
+	color: #de1c36;
+}
+.platinum_section h1, .platinum_section h2, .platinum_section p {
+	color: #004a86;
+}
+.vip_section h1, .vip_section h2, .vip_section p {
+	color: #0070db;
+}
