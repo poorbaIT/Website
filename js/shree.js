@@ -19,6 +19,11 @@
                         e.stopPropagation();
                     });
 
+                    $("#mobile-menu-wrap ul li a").on("click", function(e) {
+                        $(".mobile-menu-container").removeClass("menu-open");
+                        e.stopPropagation();
+                    });
+
                     $(".mobile-menu-close").on("click", function(e) {
                         $(".mobile-menu-container").removeClass("menu-open");
                         e.stopPropagation();
